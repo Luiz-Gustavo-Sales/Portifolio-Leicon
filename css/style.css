@@ -4901,6 +4901,7 @@ h3 + img {
 /*
 * Sections
 */
+
 .section-xs {
 	padding: 25px 0;
 }
@@ -5355,7 +5356,7 @@ html [class*='section-'].section-bottom-0 {
 }
 /*============= ANO DA EMPRESA / QTD FUNCIONARIOS */
 .bg-image-2 {
-	align-items:center;
+	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #090d0e;
@@ -8242,6 +8243,7 @@ html.rd-navbar-fixed-linked .page {
 */
 .counter-classic {
 	text-align: center;
+	/* margin-left: 200px; */
 }
 
 .counter-classic-number {
