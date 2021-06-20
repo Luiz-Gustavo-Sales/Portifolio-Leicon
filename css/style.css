@@ -8238,6 +8238,28 @@ html.rd-navbar-fixed-linked .page {
 	border-bottom-color: #505cfd;
 }
 
+/* SLIDE DAS IMAGENS  */
+.carrosel-slide{
+	margin-left: 25%;
+	width:50%;
+	height:50%;
+}
+
+/* IMAGEM SOBRE NÓS */
+
+
+#img-sobre{
+	margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
 /*
 * Counter
 */
