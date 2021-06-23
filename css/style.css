@@ -5724,7 +5724,7 @@ html:not(.lt-ie10) .not-animated {
 	border-radius: 50%;
 	border-left-color: transparent;
 	border-bottom-color: transparent;
-	animation: cssload-spin .88s infinite linear;
+	animation: cssload-spin .50s infinite linear;
 }
 
 @keyframes cssload-spin {
@@ -8239,14 +8239,19 @@ html.rd-navbar-fixed-linked .page {
 }
 
 /* SLIDE DAS IMAGENS  */
-.carrosel-slide{
-	margin-left: 25%;
-	width:50%;
+.carrosel-slide-row{
+	margin-left: 5%;
+	width:80%;
 	height:50%;
+	content: "";
+	 /* clear: both;
+	display: table; */
+
+
 }
 
-/* IMAGEM SOBRE NÓS */
 
+/* IMAGEM SOBRE NÓS */
 
 #img-sobre{
 	margin-top: 10%;
@@ -8254,8 +8259,12 @@ html.rd-navbar-fixed-linked .page {
 
 
 
-
-
+/* #texto-sobre{
+	margin-bottom: 0;
+	text-indent: 1.5em;
+	margin-top: 0 	
+}
+ */
 
 
 
