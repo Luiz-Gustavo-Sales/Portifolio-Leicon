@@ -5,8 +5,14 @@ $formConfig = json_decode($formConfigFile, true);
 
 date_default_timezone_set('Etc/UTC');
 
+use PHPMailer\PHPMailer\PHPMailer;
+
 try {
-    require './phpmailer/PHPMailerAutoload.php';
+    // require './phpmailer/PHPMailerAutoload.php';
+   
+    //novo campo inserido
+    require '../vendor/autoload.php';
+
 
     $recipients = $formConfig['recipientEmail'];
 
